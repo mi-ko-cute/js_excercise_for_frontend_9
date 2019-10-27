@@ -47,7 +47,7 @@
   //   - クイズ取得~取得後の流れ
   //     1. API_URLとFetch API(fetchメソッド)を使ってAPI経由でデータを取得する
   //       - https://developer.mozilla.org/ja/docs/Web/API/WindowOrWorkerGlobalScope/fetch
-  //     2. fetchメソッドで取得したResponseデータからJSON形式のデータをオブジェクトに変換して次のthenメソッドにデータを渡す
+  //     2. fetchメソッドで取得したResponseデータからJSON形式のデータをオブジェクトに変換する
   //       - https://developer.mozilla.org/ja/docs/Web/API/Response
   //     3. 2で取得したデータの中にresultsプロパティ(配列)があり、その中には10件のクイズデータがある。
   //        その10件のデータを利用してクイズの出題・回答を出来るようにする。(詳しくは完成形の画像を参照)
